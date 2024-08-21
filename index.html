@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Reference</title>
+    <style>
+        body {
+            font-family: JetBrains Mono, monospace;
+            font-style: bold;
+            color: #eeccdf;
+            background-color: black;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #4d4d4d;
+        }
+        th {
+            background-color: #222222;
+        }
+    </style>
+</head>
+<body>
+    <h1>rom.ero</h1>
+
+    <h2>Live Window, Cursor, & Orientation Information</h2>
+    <table id="live-info-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Window.innerWidth</td>
+                <td id="window-width">Loading...</td>
+            </tr>
+            <tr>
+                <td>Window.innerHeight</td>
+                <td id="window-height">Loading...</td>
+            </tr>
+            <tr>
+                <td>Window.outerWidth</td>
+                <td id="window-outer-width">Loading...</td>
+            </tr>
+            <tr>
+                <td>Window.outerHeight</td>
+                <td id="window-outer-height">Loading...</td>
+            </tr>
+            <tr>
+                <td>Window.devicePixelRatio</td>
+                <td id="window-device-pixel-ratio">Loading...</td>
+            </tr>
+            <tr>
+                <td>MouseEvent clientX</td>
+                <td id="mouse-x">Loading...</td>
+            </tr>
+            <tr>
+                <td>MouseEvent clientY</td>
+                <td id="mouse-y">Loading...</td>
+            </tr>
+            <tr>
+                <td>DeviceOrientation.alpha</td>
+                <td id="orientation-alpha">Loading... (device may not support orientation)</td>
+            </tr>
+            <tr>
+                <td>DeviceOrientation.beta</td>
+                <td id="orientation-beta">Loading... (device may not support orientation)</td>
+            </tr>
+            <tr>
+                <td>DeviceOrientation.gamma</td>
+                <td id="orientation-gamma">Loading... (device may not support orientation)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Navigator Information</h2>
+    <table id="navigator-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Plugins Information</h2>
+    <table id="plugins-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Device Information</h2>
+    <table id="devices-table">
+        <thead>
+            <tr>
+                <th>Device Kind</th>
+                <th>Label</th>
+                <th>Device ID</th>
+                <th>Group ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Screen Information</h2>
+    <table id="screen-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Performance Information</h2>
+    <table id="performance-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Battery Information</h2>
+    <table id="battery-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>WebGL Information</h2>
+    <table id="webgl-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Geolocation Information</h2>
+    <table id="geolocation-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
